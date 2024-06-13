@@ -1,4 +1,4 @@
-# My Awesome Project
+# Clerk Project Demo
 
 This project is created for implementing user authentication and registration processes using Clerk.
 
