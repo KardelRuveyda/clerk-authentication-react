@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# My Awesome Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is created for implementing user authentication and registration processes using Clerk.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To set up the project on your local machine, follow the steps below.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js and npm
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the project repository to your local machine.
+2. Open a terminal in the project directory and run `npm install`.
+3. Create a `.env` file and add the required API keys for Clerk.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```plaintext
+REACT_APP_CLERK_FRONTEND_API=your_frontend_api_key
+4. Start the project by running npm start.
+
+
+### Contributing
+
+```markdown
+If you would like to contribute to the project, follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Clone the forked repository to your local machine:
+   ```sh
+   git clone https://github.com/your-username/your-project.git
