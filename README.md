@@ -18,8 +18,12 @@ To set up the project on your local machine, follow the steps below.
 
 ```plaintext
 REACT_APP_CLERK_FRONTEND_API=your_frontend_api_key
+```
 4. Start the project by running npm start.
 
+### Usage
+
+The homepage (/) provides user authentication and registration functionalities using Clerk buttons.
 
 ### Contributing
 
